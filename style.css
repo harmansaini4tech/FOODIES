@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "ADLaMDisplayRegular";
+  src: url(/Fonts/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkA.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  height: 70px;
+}
+.card-bg-color {
+  background-color: rgb(240, 240, 240);
+}
+.btn-bg-color {
+  background-color: rgb(171, 44, 75);
+  font-weight: lighter;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease-in;
+  font-weight: bold;
+  color: white;
+}
+.btn-bg-color:hover {
+  background-color: rgb(171, 44, 75);
+  transform: scale(1.05);
+}
+
+.btn-color {
+  color: rgb(171, 44, 75);
+  font-weight: lighter;
+  transition: background-color 0.3s ease, transform 0.3s ease-in;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: rgb(171, 44, 75);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 60px;
+  }
+  .mobile-nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mobile_search_bar {
+    display: none;
+  }
+  .card_container {
+    padding-top: 30px;
+  }
+}
