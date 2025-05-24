@@ -396,13 +396,13 @@ body {
   .ingredients_section_text p {
     font-size: 14.4px;
     line-height: 18px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
 
   .ingredients_section_text button {
     height: 30px;
     font-size: 12px;
-    margin-top: 0px;
+    margin-top:10px;
     margin-bottom: 30px;
   }
 }
