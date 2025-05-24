@@ -1,75 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img src="./img/logo.png" class="logo" alt="..." />
-        <button
-          class="navbar-toggler border-0 shadow-none"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <i class="ri-menu-2-fill fs-2"></i>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center justify-content-lg-end"
-          id="navbarScroll"
-        >
-          <ul
-            class="navbar-nav navbar-nav-scroll mobile-nav-center gap-4 me-lg-4"
-          >
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#hero_section"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About</a>
-            </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#exploreFood"
-                >Explore Foods</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page">FAQ</a>
-            </li>
-            <button
-              class="btn btn-outline"
-              style="background-color: rgb(171, 44, 75); color: white"
-            >
-              123 456 789
-            </button>
-          </ul>
-        </div>
-        <!-- <div class="d-none d-lg-block">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img src="./img/logo.png" class="logo" alt="..." />
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="ri-menu-2-fill fs-2"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center justify-content-lg-end" id="navbarScroll">
+        <ul class="navbar-nav navbar-nav-scroll mobile-nav-center gap-4 me-lg-4">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#hero_section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#exploreFood">Explore Foods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page">FAQ</a>
+          </li>
+          <button class="btn btn-outline" style="background-color: rgb(171, 44, 75); color: white">
+            123 456 789
+          </button>
+        </ul>
+      </div>
+      <!-- <div class="d-none d-lg-block">
           <button
             class="btn btn-outline"
             style="background-color: rgb(171, 44, 75); color: white"
@@ -77,171 +55,157 @@
             123 456 789
           </button>
         </div> -->
-      </div>
-    </nav>
-
-    <!-- hero section -->
-    <div class="container-fluid text-center" id="hero_section">
-      <div class="row">
-        <div class="col hero_section ps-md-5">
-          <h1>
-            Good food choices are <br />
-            good investments.
-          </h1>
-          <p class="mt-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
-            eos cupiditate officia quod quisquam odio doloribus voluptates.
-          </p>
-          <div
-            class="mt-3 d-flex flex-column flex-md-row gap-3 hero_section_buttons"
-          >
-            <button
-              type="button"
-              class="btn btn-danger d-flex justify-content-center align-items-center gap-3"
-            >
-              Order Now <i class="ri-shopping-basket-2-fill"></i>
-            </button>
-            <button
-              type="button"
-              class="btn btn-light shadow d-flex justify-content-center align-items-center gap-3"
-            >
-              Order Now <i class="ri-arrow-right-s-line"></i>
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
+  </nav>
 
-    <!-- Our Achievements -->
+  <!-- hero section -->
 
-    <div
-      class="container-fluid text-center Our_Achievements"
-      style="background-color: rgb(171, 44, 75)"
-    >
-      <div class="row">
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white"
-        >
-          <h1 class="h1">1287+</h1>
-          <p class="h6">SAVINGS</p>
-        </div>
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white"
-        >
-          <h1 class="h1">5786+</h1>
-          <p class="h6">PHOTOS</p>
-        </div>
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white"
-        >
-          <h1 class="h1">1440+</h1>
-          <p class="h6">ROCKETS</p>
-        </div>
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white"
-        >
-          <h1 class="h1">7110+</h1>
-          <p class="h6">GLOBES</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- card section -->
-    <div
-      id="exploreFood"
-      class="container-fluid text-center ps-3 pe-3 pb-3 card-bg-color card_container"
-    >
-      <div class="exploreFood">
-        <h1>Explore Our Food</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ad
-          quam animi cumque, obcaecati perspiciatis quibusdam vero eaque omnis
-          illum quos magnam esse officiis architecto tenetur facilis error
-          repellendus laboriosam earum quod exercitationem saepe! Quos ducimus
-          ipsam dolores nesciunt, sapiente et, voluptas ipsum atque numquam
-          doloribus modi, commodi suscipit tenetur.
+  <div class="container-fluid text-center" id="hero_section">
+    <div class="row">
+      <div class="col hero_section ps-md-5">
+        <h1>
+          Good food choices are <br />
+          good investments.
+        </h1>
+        <p class="mt-4">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+          eos cupiditate officia quod quisquam odio doloribus voluptates.
         </p>
+        <div class="mt-3 d-flex flex-column flex-md-row gap-3 hero_section_buttons">
+          <button type="button" class="btn btn-danger d-flex justify-content-center align-items-center gap-3">
+            Order Now <i class="ri-shopping-basket-2-fill"></i>
+          </button>
+          <button type="button" class="btn btn-light shadow d-flex justify-content-center align-items-center gap-3">
+            Order Now <i class="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Achievements -->
+
+  <div class="container-fluid text-center Our_Achievements" style="background-color: rgb(171, 44, 75)">
+    <div class="row">
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white">
+        <h1 class="h1">1287+</h1>
+        <p class="h6">SAVINGS</p>
+      </div>
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white">
+        <h1 class="h1">5786+</h1>
+        <p class="h6">PHOTOS</p>
+      </div>
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white">
+        <h1 class="h1">1440+</h1>
+        <p class="h6">ROCKETS</p>
+      </div>
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center text-white">
+        <h1 class="h1">7110+</h1>
+        <p class="h6">GLOBES</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid  ingredients_section vh-75 ">
+    <div class="row h-100">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ingredients_section_image">
+        <img src="./img/img-1.png" class="logo" alt="..." />
       </div>
 
-      <div class="row d-lg-flex justify-content-lg-center gap-5">
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mt-4 p-md-5 p-lg-0 d-md-flex justify-content-md-center align-items-md-center mt-md-5"
-        >
-          <div class="card w-100 border-0 bg-transparent">
-            <img src="./img/img-3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body text-start ps-0">
-              <h5 class="card-title">Sandwich</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card’s content.
-              </p>
-              <p class="card-text btn-color">
-                $10.50<span
-                  class="text-decoration-line-through text-secondary ms-2"
-                  >$11.70</span
-                >
-              </p>
-              <a href="#" class="btn btn-bg-color"> Order Now</a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mt-4 p-md-5 p-lg-0 d-md-flex justify-content-md-center align-items-md-center mt-md-5"
-        >
-          <div class="card w-100 border-0 bg-transparent">
-            <img src="./img/img-4.jpg" class="card-img-top" alt="..." />
-            <div class="card-body text-start ps-0">
-              <h5 class="card-title">Veg Burger</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card’s content.
-              </p>
-              <p class="card-text btn-color">
-                $17.50<span
-                  class="text-decoration-line-through text-secondary ms-2"
-                  >$9.80</span
-                >
-              </p>
-              <a href="#" class="btn btn-bg-color"> Order Now</a>
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ingredients_section_text bg-">
+        <h2 class="fw-bold">We Pride Ourselves on Making Real Food From The Best ingredients.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eos rerum ut magni, autem
+          dolore atque
+          praesentium exercitationem. Et, unde reprehenderit.
+          Eligendi, sequi! </p>
+        <button class="btn btn-danger">Learn More!</button>
+      </div>
+    </div>
+  </div>
 
-        <div
-          class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mt-4 p-md-5 p-lg-0 d-md-flex justify-content-md-center align-items-md-center mt-md-5"
-        >
-          <div class="card w-100 border-0 bg-transparent">
-            <img src="./img/img-3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body text-start ps-0">
-              <h5 class="card-title">Sandwich</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card’s content.
-              </p>
-              <p class="card-text btn-color">
-                $10.50<span
-                  class="text-decoration-line-through text-secondary ms-2"
-                  >$11.70</span
-                >
-              </p>
-              <a href="#" class="btn btn-bg-color"> Order Now</a>
-            </div>
+  <!-- card section -->
+
+  <div id="exploreFood" class="container-fluid text-center ps-3 pe-3 pb-3 card-bg-color card_container">
+    <div class="exploreFood">
+      <h1>Explore Our Food</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ad
+        quam animi cumque, obcaecati perspiciatis quibusdam vero eaque omnis
+        illum quos magnam esse officiis architecto tenetur facilis error
+        repellendus laboriosam earum quod exercitationem saepe! Quos ducimus
+        ipsam dolores nesciunt, sapiente et, voluptas ipsum atque numquam
+        doloribus modi, commodi suscipit tenetur.
+      </p>
+    </div>
+
+    <div class="row d-lg-flex justify-content-lg-center gap-5">
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mt-4 p-md-5 p-lg-0 d-md-flex justify-content-md-center align-items-md-center mt-md-5">
+        <div class="card w-100 border-0 bg-transparent">
+          <img src="./img/img-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-start ps-0">
+            <h5 class="card-title">Sandwich</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card’s content.
+            </p>
+            <p class="card-text btn-color">
+              $10.50<span class="text-decoration-line-through text-secondary ms-2">$11.70</span>
+            </p>
+            <a href="#" class="btn btn-bg-color"> Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mt-4 p-md-5 p-lg-0 d-md-flex justify-content-md-center align-items-md-center mt-md-5">
+        <div class="card w-100 border-0 bg-transparent">
+          <img src="./img/img-4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-start ps-0">
+            <h5 class="card-title">Veg Burger</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card’s content.
+            </p>
+            <p class="card-text btn-color">
+              $17.50<span class="text-decoration-line-through text-secondary ms-2">$9.80</span>
+            </p>
+            <a href="#" class="btn btn-bg-color"> Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mt-4 p-md-5 p-lg-0 d-md-flex justify-content-md-center align-items-md-center mt-md-5">
+        <div class="card w-100 border-0 bg-transparent">
+          <img src="./img/img-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-start ps-0">
+            <h5 class="card-title">Sandwich</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card’s content.
+            </p>
+            <p class="card-text btn-color">
+              $10.50<span class="text-decoration-line-through text-secondary ms-2">$11.70</span>
+            </p>
+            <a href="#" class="btn btn-bg-color"> Order Now</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
-      integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+    crossorigin="anonymous"></script>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
+
 </html>

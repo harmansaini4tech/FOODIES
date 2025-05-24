@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
@@ -19,6 +20,7 @@ body {
 .logo {
   height: 70px;
 }
+
 .hero_section {
   background-image: url(./bg/bg-1.jpg);
   background-size: cover;
@@ -32,28 +34,33 @@ body {
   text-align: left;
   /* padding-left: 100px; */
 }
+
 .hero_section h1 {
   font-size: 50px;
   margin-top: -100px;
   font-weight: bold;
   margin-left: 100px;
 }
+
 .hero_section p {
   width: 40%;
   font-size: 1.1rem;
   margin-left: 100px;
 }
+
 .hero_section_buttons button {
   height: 50px;
   width: 150px;
 }
+
 .hero_section_buttons button:nth-child(1) {
   margin-left: 100px;
 }
 
 .card-bg-color {
-  background-color: rgb(240, 240, 240);
+  /* background-color: rgb(240, 240, 240); */
 }
+
 .btn-bg-color {
   background-color: rgb(171, 44, 75);
   font-weight: lighter;
@@ -62,6 +69,7 @@ body {
   font-weight: bold;
   color: white;
 }
+
 .btn-bg-color:hover {
   background-color: rgb(171, 44, 75);
   transform: scale(1.05);
@@ -80,19 +88,23 @@ body {
   font-weight: bold;
   font-size: 1rem;
 }
+
 #exploreFood {
   padding: 100px;
 }
+
 .exploreFood {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
+
 .exploreFood h1 {
   font-size: 50px;
   color: rgb(171, 44, 75);
 }
+
 .exploreFood p {
   font-size: 1.1rem;
   width: 70%;
@@ -105,10 +117,54 @@ body {
   height: 40vh;
 }
 
-@media screen and (max-width: 768px) {
+.ingredients_section {
+  background-color: rgb(240, 240, 240);
+  padding-top: 50px;
+}
+
+.ingredients_section_image {
+  padding: 50px;
+  padding-left: 150px;
+}
+
+.ingredients_section_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+
+.ingredients_section_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 0;
+  padding-right: 150px;
+}
+
+.ingredients_section_text h2 {
+  font-size: 40px;
+}
+
+.ingredients_section_text p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 10px;
+}
+
+.ingredients_section_text button {
+  height: 50px;
+  margin-top: 10px;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
     scroll-padding-top: 380px;
   }
+
   .logo {
     height: 60px;
   }
@@ -126,23 +182,28 @@ body {
     text-align: left;
     /* padding-left: 100px; */
   }
+
   .hero_section h1 {
     font-size: 35px;
     margin-top: -10px;
     margin-left: 0px;
   }
+
   .hero_section p {
     width: 50%;
     font-size: 1.1rem;
     margin-left: 0px;
   }
+
   .hero_section_buttons button {
     height: 50px;
     width: 150px;
   }
+
   .hero_section_buttons button:nth-child(1) {
     margin-left: 0px;
   }
+
   .hero_section_buttons button:nth-child(2) {
     margin-left: 0px;
   }
@@ -151,6 +212,7 @@ body {
     font-size: 35px;
     color: rgb(171, 44, 75);
   }
+
   .exploreFood p {
     font-size: 1rem;
     width: 90%;
@@ -167,21 +229,72 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
   .mobile_search_bar {
     display: none;
   }
+
   .card_container {
     padding-top: 30px;
   }
+
   .Our_Achievements .row div {
     height: 30vh;
   }
+
+  .ingredients_section {
+    background-color: rgb(240, 240, 240);
+    padding-top: 50px;
+  }
+
+  .ingredients_section_image {
+    padding: 50px;
+    padding-top: 0;
+    padding-left: 50px;
+
+  }
+
+  .ingredients_section_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+
+  .ingredients_section_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-left: 0;
+    padding-right: 50px;
+  }
+
+  .ingredients_section_text h2 {
+    font-size: 20px;
+  }
+
+  .ingredients_section_text p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 0px;
+  }
+
+  .ingredients_section_text button {
+    height: 30px;
+    font-size: 12px;
+    margin-top: -5px;
+  }
+
+
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 0) and (max-width: 767px) {
   html {
     scroll-padding-top: 380px;
   }
+
   .logo {
     height: 50px;
   }
@@ -199,23 +312,28 @@ body {
     text-align: left;
     /* padding-left: 100px; */
   }
+
   .hero_section h1 {
     font-size: 30px;
     margin-top: -1px;
     margin-left: 0px;
   }
+
   .hero_section p {
     width: 90%;
     font-size: 1rem;
     margin-left: 0px;
   }
+
   .hero_section_buttons button {
     height: 50px;
     width: 150px;
   }
+
   .hero_section_buttons button:nth-child(1) {
     margin-left: 40px;
   }
+
   .hero_section_buttons button:nth-child(2) {
     margin-left: 0px;
   }
@@ -224,6 +342,7 @@ body {
     font-size: 30px;
     color: rgb(171, 44, 75);
   }
+
   .exploreFood p {
     font-size: 0.9rem;
     width: 100%;
@@ -231,69 +350,60 @@ body {
     margin-top: 20px;
     color: rgb(88, 88, 88);
   }
+
   .Our_Achievements .row div {
     height: 22vh;
   }
+
   .hero_section_buttons button:nth-child(1) {
     margin-left: 0px;
   }
-}
 
-@media screen and (max-width: 480px) {
-  html {
-    scroll-padding-top: 380px;
-  }
-  .logo {
-    height: 50px;
+  .ingredients_section {
+    background-color: rgb(240, 240, 240);
+    padding-top: 50px;
   }
 
-  .hero_section {
-    background-image: url(./bg/bg-1.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 90vh;
-    /* width: 100%; */
+  .ingredients_section_image {
+    padding-top: 0;
+    padding-left: 0px;
+    padding: 15px;
+
+  }
+
+  .ingredients_section_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+
+  .ingredients_section_text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    text-align: left;
-    /* padding-left: 100px; */
-  }
-  .hero_section h1 {
-    font-size: 30px;
-    margin-top: -60px;
-  }
-  .hero_section p {
-    width: 90%;
-    font-size: 1rem;
-  }
-  .hero_section_buttons button {
-    height: 40px;
-    width: 150px;
-  }
-  .hero_section_buttons button:nth-child(1) {
-    margin-left: 0px;
-  }
-  .hero_section_buttons button:nth-child(2) {
-    margin-left: 0px;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
-  .exploreFood h1 {
-    font-size: 30px;
-    color: rgb(171, 44, 75);
+  .ingredients_section_text h2 {
+    font-size: 20px;
+    margin-top: 15px;
   }
-  .exploreFood p {
-    font-size: 0.9rem;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    color: rgb(88, 88, 88);
+
+  .ingredients_section_text p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 0px;
   }
-  .Our_Achievements .row div {
-    height: 20vh;
-  }
-  .hero_section_buttons button:nth-child(1) {
-    margin-left: 0px;
+
+  .ingredients_section_text button {
+    height: 30px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 30px;
   }
 }
+
