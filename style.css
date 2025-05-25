@@ -22,7 +22,7 @@ body {
 }
 
 .hero_section {
-  background-image: url(./bg/bg-1.jpg);
+  background-image: url(./img/bg/bg-1.jpg);
   background-size: cover;
   background-position: bottom;
   height: 100vh;
@@ -131,7 +131,6 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
-
 }
 
 .ingredients_section_text {
@@ -156,7 +155,6 @@ body {
 .ingredients_section_text button {
   height: 40px;
   margin-top: 10px;
-
 }
 
 .about_section {
@@ -183,7 +181,6 @@ body {
   padding-left: 150px;
   padding-right: 20px;
   padding-top: 50px;
-
 }
 
 .about_section_text h2 {
@@ -215,10 +212,31 @@ body {
 .about_section_text button {
   height: 40px;
   margin-top: 20px;
-
 }
 
-
+.Difference_bg_Image {
+  margin-top: 50px;
+  background-image: url(./img/bg/bg-2.jpg);
+  background-size: cover;
+  background-position: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Difference_bg_Image h2 {
+  color: rgb(171, 44, 75);
+  width: 50%;
+  text-align: center;
+}
+.Difference_bg_Image p {
+  width: 65%;
+  text-align: center;
+  margin-top: 20px;
+}
+.Difference_bg_Image .readMoreBtn {
+  margin-top: 20px;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
     scroll-padding-top: 380px;
@@ -229,7 +247,7 @@ body {
   }
 
   .hero_section {
-    background-image: url(./bg/bg-1.jpg);
+    background-image: url(./img/bg/bg-1.jpg);
     background-size: cover;
     background-position: bottom;
     height: 70vh;
@@ -302,7 +320,6 @@ body {
   }
 
   .ingredients_section {
-
     padding-top: 50px;
   }
 
@@ -310,7 +327,6 @@ body {
     padding: 50px;
     padding-top: 0;
     padding-left: 50px;
-
   }
 
   .ingredients_section_image img {
@@ -318,7 +334,6 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-
   }
 
   .ingredients_section_text {
@@ -370,7 +385,6 @@ body {
     padding-left: 50px;
     padding-right: 20px;
     padding-top: 50px;
-
   }
 
   .about_section_text h2 {
@@ -378,7 +392,7 @@ body {
   }
 
   .about_section_text p {
-     font-size: 12px;
+    font-size: 12px;
     line-height: 15px;
     margin-top: 15px;
   }
@@ -404,7 +418,6 @@ body {
     font-size: 12px;
     /* margin-top: 5px; */
   }
-
 }
 
 @media screen and (min-width: 0) and (max-width: 767px) {
@@ -415,9 +428,16 @@ body {
   .logo {
     height: 50px;
   }
-
+  .mobile-nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .hero_section {
-    background-image: url(./bg/bg-1.jpg);
+    background-image: url(./img/bg/bg-1.jpg);
     background-size: cover;
     background-position: bottom;
     height: 70vh;
@@ -477,7 +497,6 @@ body {
   }
 
   .ingredients_section {
-
     padding-top: 50px;
   }
 
@@ -485,7 +504,6 @@ body {
     padding-top: 0;
     padding-left: 0px;
     padding: 15px;
-
   }
 
   .ingredients_section_image img {
@@ -493,7 +511,6 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-
   }
 
   .ingredients_section_text {
@@ -530,7 +547,7 @@ body {
   }
 
   .about_section_image {
-    padding-right:20px;
+    padding-right: 20px;
   }
 
   .about_section_image img {
@@ -547,7 +564,6 @@ body {
     padding-left: 15px;
     padding-right: 20px;
     padding-top: 50px;
-
   }
 
   .about_section_text h2 {
@@ -555,7 +571,7 @@ body {
   }
 
   .about_section_text p {
-     font-size: 12px;
+    font-size: 12px;
     line-height: 15px;
     margin-top: 15px;
   }
@@ -580,5 +596,28 @@ body {
     height: 30px;
     font-size: 12px;
     /* margin-top: 5px; */
+  }
+  .Difference_bg_Image {
+    margin-top: 50px;
+    background-image: url(./img/bg/bg-2.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Difference_bg_Image h2 {
+    color: rgb(171, 44, 75);
+    width: 90%;
+    text-align: center;
+  }
+  .Difference_bg_Image p {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .Difference_bg_Image .readMoreBtn {
+    margin-top: 20px;
   }
 }
