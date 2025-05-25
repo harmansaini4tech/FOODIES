@@ -118,7 +118,6 @@ body {
 }
 
 .ingredients_section {
-  background-color: rgb(240, 240, 240);
   padding-top: 50px;
 }
 
@@ -155,10 +154,70 @@ body {
 }
 
 .ingredients_section_text button {
-  height: 50px;
+  height: 40px;
   margin-top: 10px;
 
 }
+
+.about_section {
+  background-color: rgb(240, 240, 240);
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+.about_section_image {
+  padding-right: 100px;
+}
+
+.about_section_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about_section_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 150px;
+  padding-right: 20px;
+  padding-top: 50px;
+
+}
+
+.about_section_text h2 {
+  font-size: 40px;
+}
+
+.about_section_text p {
+  font-size: 17.6px;
+  line-height: 21px;
+  margin-top: 8px;
+}
+
+.about_section_text div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.about_section_text div span,
+.about_section_text div span i {
+  font-size: 17.6px;
+  line-height: 30px;
+}
+
+.about_section_text div span i {
+  margin-right: 10px;
+}
+
+.about_section_text button {
+  height: 40px;
+  margin-top: 20px;
+
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
@@ -243,7 +302,7 @@ body {
   }
 
   .ingredients_section {
-    background-color: rgb(240, 240, 240);
+
     padding-top: 50px;
   }
 
@@ -287,6 +346,64 @@ body {
     margin-top: -5px;
   }
 
+  .about_section {
+    background-color: rgb(240, 240, 240);
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+
+  .about_section_image {
+    padding-right: 50px;
+  }
+
+  .about_section_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .about_section_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+
+  }
+
+  .about_section_text h2 {
+    font-size: 20px;
+  }
+
+  .about_section_text p {
+     font-size: 12px;
+    line-height: 15px;
+    margin-top: 15px;
+  }
+
+  .about_section_text div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .about_section_text div span,
+  .about_section_text div span i {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .about_section_text div span i {
+    margin-right: 10px;
+  }
+
+  .about_section_text button {
+    height: 30px;
+    font-size: 12px;
+    /* margin-top: 5px; */
+  }
 
 }
 
@@ -360,7 +477,7 @@ body {
   }
 
   .ingredients_section {
-    background-color: rgb(240, 240, 240);
+
     padding-top: 50px;
   }
 
@@ -402,8 +519,66 @@ body {
   .ingredients_section_text button {
     height: 30px;
     font-size: 12px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-bottom: 30px;
   }
-}
 
+  .about_section {
+    background-color: rgb(240, 240, 240);
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+
+  .about_section_image {
+    padding-right:20px;
+  }
+
+  .about_section_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .about_section_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 50px;
+
+  }
+
+  .about_section_text h2 {
+    font-size: 20px;
+  }
+
+  .about_section_text p {
+     font-size: 12px;
+    line-height: 15px;
+    margin-top: 15px;
+  }
+
+  .about_section_text div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .about_section_text div span,
+  .about_section_text div span i {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .about_section_text div span i {
+    margin-right: 10px;
+  }
+
+  .about_section_text button {
+    height: 30px;
+    font-size: 12px;
+    /* margin-top: 5px; */
+  }
+}
