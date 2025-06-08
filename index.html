@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body data-bs-theme="light"  id="mainBody">
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -34,6 +34,7 @@
           aria-label="Toggle navigation"
         >
           <!-- <span class="navbar-toggler-icon"></span> -->
+           <!-- <i class="ri-sun-fill" style="font-size: 25px; line-height: 1;"></i> -->
           <i class="ri-menu-2-fill fs-2"></i>
         </button>
         <div
@@ -49,7 +50,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about_section">About</a>
+              <a class="nav-link" aria-current="page" href="#about_section"
+                >About</a
+              >
             </li>
 
             <li class="nav-item">
@@ -58,7 +61,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#reviews">Reviews</a>
+              <a class="nav-link" aria-current="page" href="#reviews"
+                >Reviews</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page">FAQ</a>
@@ -69,6 +74,11 @@
             >
               123 456 789
             </button>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page"  id="toogleDarkLight"
+                ><i class="ri-sun-fill" id="sunAndmoonIcon" style="font-size: 20px; line-height: 1;"></i
+              ></a>
+            </li>
           </ul>
         </div>
         <!-- <div class="d-none d-lg-block">
@@ -178,7 +188,10 @@
 
     <!-- about us -->
 
-    <div class="container-fluid vh-100 about_section" id="about_section">
+    <div
+      class="container-fluid vh-100 about_section border border-light-subtle"
+      id="about_section"
+    >
       <div class="row h-100">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about_section_text">
           <h2 class="fw-bold">
@@ -302,11 +315,12 @@
 
     <!-- Difference -->
 
-    <div class="container-fluid h-75 ">
+    <div class="container-fluid h-75">
       <div class="row h-100">
         <div class="col Difference_bg_Image">
           <h2 class="fw-bold">
-            When A Men's Stomatch Is Full It Makes No Difference Whether He is Rich or Poor.
+            When A Men's Stomatch Is Full It Makes No Difference Whether He is
+            Rich or Poor.
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
