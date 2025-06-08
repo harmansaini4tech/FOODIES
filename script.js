@@ -18,9 +18,11 @@ toogleDarkLight.addEventListener("click", () => {
   const element = document.getElementById("sunAndmoonIcon");
 
   if (element.classList == "ri-sun-fill") {
+    body.classList.add('darkThemeColors')
     element.classList.remove("ri-sun-fill");
     element.classList.add("ri-moon-fill");
   } else {
+     body.classList.add('')
     element.classList.remove("ri-moon-fill");
     element.classList.add("ri-sun-fill");
   }

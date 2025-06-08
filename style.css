@@ -16,6 +16,9 @@ body {
   font-family: bootstrapFont;
   scroll-behavior: smooth;
 }
+.darkThemeColors{
+  color: white;
+}
 
 .logo {
   height: 70px;
@@ -365,7 +368,7 @@ body {
   }
 
   .about_section {
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
     margin-top: 50px;
     padding-top: 30px;
   }
@@ -544,7 +547,7 @@ body {
   }
 
   .about_section {
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
     margin-top: 50px;
     padding-top: 30px;
   }
